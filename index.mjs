@@ -140,6 +140,4 @@ app.post('/p2f', async (req, res) => {
 });
 
 
-app.listen(3000, ()=>{
-  console.log("server is runnig")
-})
+export {app}

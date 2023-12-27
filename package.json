@@ -21,6 +21,7 @@
     "express": "^4.18.2",
     "faiss-node": "^0.5.1",
     "firebase": "^10.7.1",
+    "http": "^0.0.1-security",
     "langchain": "^0.0.212",
     "nodemon": "^3.0.2",
     "pickleparser": "^0.2.1",

@@ -58,10 +58,6 @@ const initializeData = async () => {
         throw err;
     }
 };
-
-// Initialize data on server startup
-initializeData().catch(error => console.error('Error during server startup:', error));
-
 app.get("/", async (req, res) => {
     try {
         if (!initialized) {
@@ -128,6 +124,12 @@ app.post("/p2f", async (req, res) => {
     }
 });
 
+
 app.listen(3000, () => {
     console.log(`Server is running on port: 3000`);
 });
+
+// Initialize data on server startup
+initializeData().catch(error => console.error('Error during server startup:', error));
+
+

@@ -130,6 +130,6 @@ app.listen(3000, () => {
 });
 
 // Initialize data on server startup
-//initializeData().catch(error => console.error('Error during server startup:', error));
+initializeData().catch(error => console.error('Error during server startup:', error));
 
 

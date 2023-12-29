@@ -104,7 +104,7 @@ app.post('/', async (req, res) => {
       question: query,
     });
     const chat = { query, response: response.text };
-    console.log(chat.response);
+   
     res.send(chat.response);
   } catch (err) {
     console.error('Error in POST request:', err);
@@ -131,7 +131,7 @@ app.post('/p2f', async (req, res) => {
       question: query,
     });
     const chat = { query, response: response.text };
-    console.log(chat.response);
+   
     res.send(chat.response);
   } catch (err) {
     console.error('Error in POST request:', err);

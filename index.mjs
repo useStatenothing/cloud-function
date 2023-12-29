@@ -21,7 +21,7 @@ app.use(cors());
 
 const model = new HuggingFaceInference({
   apiKey: `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`,
-  model: 'HuggingFaceH4/zephyr-7b-beta',
+  model: 'HuggingFaceH4/zephyr-7b-alpha',
 });
 const embeddings = new HuggingFaceInferenceEmbeddings({
   apiKey: `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`,

@@ -24,7 +24,7 @@ const model = new HuggingFaceInference({
   model: 'HuggingFaceH4/zephyr-7b-alpha',
 });
 const embeddings = new HuggingFaceInferenceEmbeddings({
-  apiKey: `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`,
+  apiKey: `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`,
 });
 const splitter = new RecursiveCharacterTextSplitter({
   chunkSize: 800,
